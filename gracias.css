@@ -1,0 +1,67 @@
+/* CHRISTIAN ALDANA 0909-21-697 */ 
+/* BRANDON ALDANA 0909 - 21 - 4628 */
+
+/* Fuente de estilo de letra*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+
+/* Margenes y padding de la pagina*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Aumenta el tamaño del texto principal */
+body,
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Imagen de fondo */
+header {
+  min-height: 100vh;
+  width: 100%;
+  background: url("ba.jpeg") no-repeat top center / cover;
+  position: relative;
+}
+
+/* Da oscuridad a la pagina y centra el texto */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(43, 51, 59, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Da color y centra el texto */
+.inner {
+  max-width: 35rem;
+  text-align: center;
+  color: #fff;
+  padding: 0 2rem;
+}
+
+/* Tamaño de Titulo  */
+.title {
+  font-size: 2.7rem;
+}
+
+/* Color y diseño de boton*/
+.btn {
+  margin-top: 1rem;
+  padding: 0.8rem 1.1 rem;
+  background-color: #1179e7;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+
